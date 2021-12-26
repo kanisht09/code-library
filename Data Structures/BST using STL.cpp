@@ -3,7 +3,7 @@ using namespace std;
 
 const int N = 3e5 + 9;
 
-//the code returns a BST which will create if we add the values one by one
+//the code returns a BST , which is created when we add the values one by one
 //here nodes are indicated by values and every node must be distinct
 set<int>se;
 map<int, int>l, r; //l contains the left child of the node, r contains right child of the node
